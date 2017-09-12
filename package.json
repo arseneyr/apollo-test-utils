@@ -35,7 +35,8 @@
     "prepublish": "npm run clean && npm run build"
   },
   "peerDependencies": {
-    "apollo-client": "^1.0.0"
+    "apollo-client": "^1.0.0",
+    "graphql": "^0.10.0"
   },
   "devDependencies": {
     "@types/chai": "^4.0.0",
@@ -52,7 +53,6 @@
     "typescript": "^2.2.1"
   },
   "dependencies": {
-    "graphql": "^0.10.0",
     "graphql-tools": "^1.0.0",
     "graphql-tag": "^2.0.0"
   }
